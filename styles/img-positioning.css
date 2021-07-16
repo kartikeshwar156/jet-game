@@ -1,0 +1,8 @@
+img {
+    display: block;/*individual block so it will have it's own margin*/
+    margin: 90px auto;/*we can define margin individually like margin-right or margin-top or in given manner*/
+  }
+  /*The <body> is a block element, meaning it takes up space on the page. A block element can have margin */
+  /*and other spacing values applied to it. In contrast, images are inline elements.*/
+  /* It is not possible to apply margin or spacing values to inline elements.*/
+  /* So to apply margins to the image, we must give the image block-level behavior using   display: block;  */

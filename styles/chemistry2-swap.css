@@ -1,0 +1,28 @@
+BODY { 
+    background: no-repeat url("../../../Downloads/game-background-2.PNG");
+
+    }
+    .Table {
+        margin-left: 200px;
+        
+        margin-top: 100px;
+      }
+    
+    .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+      
+      width: 80px;
+      height: 81px;
+      border: 1px solid white;
+      background: no-repeat url("../../../Downloads/perfectgrid2.PNG"); 
+      cursor: grab;
+    }
+    
+    .tile1 {background-position: left top;}
+    .tile2 {background-position: center top;}
+    .tile3 {background-position: right top;}
+    .tile4 {background-position: left center;}
+    .tile5 {background-position: center center;}
+    .tile6 {background-position: right center;}
+    .tile7 {background-position: left bottom;}
+    .tile8 {background-position: center bottom;}
+    .tile9 {background: white; cursor: default;}

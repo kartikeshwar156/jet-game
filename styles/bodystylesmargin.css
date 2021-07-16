@@ -1,0 +1,8 @@
+body {
+  width: 900px;
+  margin: 0px auto;
+  background-color: blue;
+  border: 5px solid red;/*solid is important to write*/
+  padding: 20px 20px 20px 20px;/*top right bottom left */
+}
+/*padding sets the area to beleft blanked from the body*/

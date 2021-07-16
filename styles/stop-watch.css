@@ -1,0 +1,25 @@
+body {
+  background-color: cadetblue;
+}
+
+.stopwatch {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 23px;
+  
+  padding-top: 25px;
+}
+
+
+
+.time {
+  font-weight: 300;
+  font-size: 98px;
+}
+
+.circles {
+  
+  border-width: 1px;
+  border-color: black;
+
+}

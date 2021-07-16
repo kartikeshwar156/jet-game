@@ -1,0 +1,16 @@
+p, li, h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+h2 {
+    margin-right: 150px;
+    margin-left: 600px;
+}
+/*now margin top will provide a space from all the things present at top of the element you took */
+/*if margin top is given 200px and the above element is already 300px away from element then nothing gets change */
+/*but if above part is 50px away from the element then it will convert it 200px away as you commanded*/
+/*margin left as you kno by default everything is attached to yhe leftmost part of screen and*/
+/*keeping margin-left: 200 will separate the distance with 200px*/
+/*but if you put margin-right: 200px and it is already more than 200 px away from margin then nothing will change for right */
