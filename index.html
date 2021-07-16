@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="styles/jet-game.css" rel="stylesheet">
+
+<style>
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+<title>My test page</title>
+</head>
+<body>
+
+<div id="overlay" >
+    <div id="text">You Can Start Game in - 3</div>
+</div>
+
+<div id="overlay2" >
+    <div id="text2">You Can Start Game in - 2</div>
+</div>
+
+<div id="overlay3" >
+    <div id="text3">You Can Start Game in - 1</div>
+</div>
+
+<div class="gamestart"><h1>The Runner Game</p></h1></div>
+<div class="rule"><h1>You can start the game by pressin "UP" or "DOWN" button</p></h1></div>
+
+
+<div id="All">
+  <button id="moveUp" class="button1" onclick="moveup()">UP</button>
+  <button id="moveDown" class="button2" onclick="movedown()">DOWN</button>
+  <button class="button3" onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+  
+  <button class="button4" onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()"">RIGHT</button>
+</div>
+
+  
+<div id="container">
+  <canvas id="canvas" class="canvas1" ></canvas>
+
+</div>
+
+
+    
+
+<script src="scripts/JET-GAME-AGAIN-practical.js"></script>
+<script src="scripts/overlay.js"></script>
+
+</body>
+</html>
