@@ -271,9 +271,9 @@ function component(width, height, color, x, y,type) {
 function updateGameArea() {
 
     turn=turn + 1;
-    if(turn >= 15)
+    if(turn >= 20)
     {
-        rem = turn % 15;
+        rem = turn % 20;
     }
     
     if((DD != 0) && (rem == 0) && (myGamePiece.y <= 230)&&(myGamePiece.y >= 225))
