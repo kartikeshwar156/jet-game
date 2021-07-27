@@ -169,33 +169,7 @@ function component(width, height, color, x, y,type) {
 
     }
 
-    this.buttons = function() {
-        if((this.y <= 210) && (this.y >= 16) && (this.speedY>0))
-        {
-            show=document.getElementById("moveDown");
-            show1=document.getElementById("moveUp");
-            show.style.display = "none";
-            show1.style.display = "none";
-        }
-        if((this.y <= 220) && (this.y >= 210))
-        {
-            show=document.getElementById("moveUp");
-            show.style.display = "";
-        }
-        if((this.y <= 210) && (this.y >= 16) && (this.speedY<0))
-        {
-            show=document.getElementById("moveDown");
-            show1=document.getElementById("moveUp");
-            show.style.display = "none";
-            show1.style.display = "none";
-        }
-        if((this.y <= 15) && (this.y >= 11))
-        {
-            show=document.getElementById("moveDown");
-            show.style.display = "";
-        }
-        
-    }
+    
 
     this.newPos = function() {
         
@@ -373,7 +347,7 @@ function updateGameArea() {
     }
     
     
-    myGamePiece.buttons();
+    
     myGamePiece.end();
     myGamePiece.left_right();
     myGamePiece.update();
